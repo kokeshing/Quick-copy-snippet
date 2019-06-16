@@ -3,7 +3,7 @@
   "name": "Quick Copy Snippet",
   "short_name": "QuickCopySnippet",
   "description": "Display copy button on snippets of website",
-  "version": "0.2",
+  "version": "0.3",
   "icons": {
     "64": "icon.png"
   },

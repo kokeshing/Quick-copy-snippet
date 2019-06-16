@@ -1,6 +1,9 @@
 const CODE_DOM_SELECTORS = [
   "pre" // general
 ]
+const IGNORE_URLS = [
+  "www.google.com" // google translation
+]
 
 const XOFFSET = 72;
 const YOFFSET = 4;
@@ -119,4 +122,15 @@ const onPageLoad = () => {
 };
 
 
-onPageLoad();
+let enable = true;
+const url = location.href;
+for (const ignore_url of IGNORE_URLS) {
+    if (url.indexOf(ignore_url) !== -1) {
+        enable = false;
+        break;
+    }
+}
+
+if (enable) {
+  onPageLoad();
+}
