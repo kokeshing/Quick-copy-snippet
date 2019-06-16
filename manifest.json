@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Quick Copy Snippet",
+  "short_name": "QuickCopySnippet",
   "description": "Display copy button on snippets of website",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "64": "icon.png"
   },

@@ -5,4 +5,4 @@
 # WIP
 
 Can not hook rendering by using virtual DOM operation.
-So, if you use this on using virtual DOM operation, reload page.
+So, if you use this on using virtual DOM operation, reload the page.
