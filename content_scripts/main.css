@@ -1,0 +1,23 @@
+.copy-button {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  width: 64px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 14px;
+  color: white;
+  background-color: #2BB673;
+  border: thin solid #2BB673;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.copy-button.clicked {
+  transition: 0.5s;
+  transform: rotateY(360deg);
+  color: white;
+  background-color: #364549;
+}
